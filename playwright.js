@@ -13,7 +13,7 @@ const { chromium } = require('playwright');
     await page.fill('input[name="email"]', 'giang220804@gmail.com');
 
     // 3. Điền mật khẩu vào ô input
-    await page.fill('input[name="pass"]', 'Giang@220804');
+    await page.fill('input[name="pass"]', 'clone');
 
     // 4. Nhấn nút đăng nhập
     await page.click('button[name="login"]');
